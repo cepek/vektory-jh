@@ -1,0 +1,926 @@
+<?xml version="1.0" ?>
+<gnu-gama-data xmlns="http://www.gnu.org/software/gama/gnu-gama-data">
+
+<g3-adjustment-results>
+
+<adjustment-statistics>
+
+<algorithm> envelope </algorithm>
+
+<ellipsoid> <caption> World Geodetic System 1984 </caption>
+            <id>      wgs84         </id>
+            <a>       6378137.00000 </a>
+            <b>       6356752.31425 </b>
+            </ellipsoid>
+
+<parameters>   12 </parameters>
+<equations>    69 </equations>
+<defect>        0 </defect>
+<redundancy>   57 </redundancy>
+
+<sum-of-squares>        3.84685e+06 </sum-of-squares>
+<apriori-variance>      1.00000e+02 </apriori-variance>
+<aposteriori-variance>  6.74886e+04 </aposteriori-variance>
+<variance-factor-used>  aposteriori </variance-factor-used>
+<design-matrix-graph>     connected </design-matrix-graph>
+
+</adjustment-statistics>
+
+
+<!-- adjustment results    : dn / de / du  are in millimeters -->
+<!-- deflection of vertical: db / dl       are in arc seconds -->
+
+<adjustment-results>
+
+<point> <id> 503 </id>
+
+        <n-free/>   <dn>  -5.642 </dn> <ind>1</ind> 
+        <e-free/>   <de>  -0.333 </de> <ind>2</ind> 
+        <u-free/>   <du>  -3.997 </du> <ind>3</ind> 
+
+        <cnn> 2.2782458e+01 </cnn> <cne>  2.8948895e+00 </cne> 
+                                   <cnu> -9.5634441e-01 </cnu>
+        <cee> 1.1921635e+01 </cee> <ceu>  1.0698135e+00 </ceu>
+        <cuu> 9.1577412e+01 </cuu>
+
+        <x-given     >      3955846.00100 </x-given>
+        <x-correction>            0.00183 </x-correction>
+        <x-adjusted  >      3955846.00283 </x-adjusted>
+
+        <y-given     >       962321.88900 </y-given>
+        <y-correction>            0.00010 </y-correction>
+        <y-adjusted  >       962321.88910 </y-adjusted>
+
+        <z-given     >      4893646.17700 </z-given>
+        <z-correction>           -0.00668 </z-correction>
+        <z-adjusted  >      4893646.17032 </z-adjusted>
+
+        <cxx> 5.0130508e+01 </cxx> <cxy>  7.7448541e+00 </cxy> 
+                                   <cxz>  3.2368284e+01 </cxz>
+        <cyy> 1.3428617e+01 </cyy> <cyz>  1.0620673e+01 </cyz>
+        <czz> 6.2722380e+01 </czz>
+
+        <b-given     >   50-25-50.5449233 </b-given>
+        <b-correction>         -0.0001826 </b-correction>
+        <b-adjusted  >   50-25-50.5447407 </b-adjusted>
+
+        <l-given     >   13-40-21.0908733 </l-given>
+        <l-correction>         -0.0000169 </l-correction>
+        <l-adjusted  >   13-40-21.0908565 </l-adjusted>
+
+        <h-given     >          259.60403 </h-given>
+        <h-correction>           -0.00400 </h-correction>
+        <h-adjusted  >          259.60003 </h-adjusted>
+
+        </point>
+
+<point> <id> 06200210 </id>
+
+        <n-free/>   <dn>  -0.909 </dn> <ind>4</ind> 
+        <e-free/>   <de>   2.125 </de> <ind>5</ind> 
+        <u-free/>   <du>  -0.214 </du> <ind>6</ind> 
+
+        <cnn> 2.4483023e+01 </cnn> <cne>  2.8973622e+00 </cne> 
+                                   <cnu>  2.2604874e+00 </cnu>
+        <cee> 1.3756750e+01 </cee> <ceu>  4.2215636e+00 </ceu>
+        <cuu> 1.0177480e+02 </cuu>
+
+        <x-given     >      3955697.38400 </x-given>
+        <x-correction>            0.00005 </x-correction>
+        <x-adjusted  >      3955697.38405 </x-adjusted>
+
+        <y-given     >       962835.29700 </y-given>
+        <y-correction>            0.00220 </y-correction>
+        <y-adjusted  >       962835.29920 </y-adjusted>
+
+        <z-given     >      4893662.63300 </z-given>
+        <z-correction>           -0.00074 </z-correction>
+        <z-adjusted  >      4893662.63226 </z-adjusted>
+
+        <cxx> 5.1186953e+01 </cxx> <cxy>  9.5664012e+00 </cxy> 
+                                   <cxz>  3.5256828e+01 </cxz>
+        <cyy> 1.6196180e+01 </cyy> <cyz>  1.3830442e+01 </cyz>
+        <czz> 7.2631439e+01 </czz>
+
+        <b-given     >   50-25-51.4583061 </b-given>
+        <b-correction>         -0.0000294 </b-correction>
+        <b-adjusted  >   50-25-51.4582767 </b-adjusted>
+
+        <l-given     >   13-40-48.1451178 </l-given>
+        <l-correction>          0.0001077 </l-correction>
+        <l-adjusted  >   13-40-48.1452255 </l-adjusted>
+
+        <h-given     >          257.62836 </h-given>
+        <h-correction>           -0.00021 </h-correction>
+        <h-adjusted  >          257.62815 </h-adjusted>
+
+        </point>
+
+<point> <id> 06202430 </id>
+
+        <n-free/>   <dn>  -5.362 </dn> <ind>7</ind> 
+        <e-free/>   <de>  -1.238 </de> <ind>8</ind> 
+        <u-free/>   <du>   1.860 </du> <ind>9</ind> 
+
+        <cnn> 2.2049558e+01 </cnn> <cne>  2.8793950e+00 </cne> 
+                                   <cnu> -5.2607753e-01 </cnu>
+        <cee> 1.1507052e+01 </cee> <ceu>  1.3774518e+00 </ceu>
+        <cuu> 8.9309915e+01 </cuu>
+
+        <x-given     >      3956858.78000 </x-given>
+        <x-correction>            0.00546 </x-correction>
+        <x-adjusted  >      3956858.78546 </x-adjusted>
+
+        <y-given     >       963723.90900 </y-given>
+        <y-correction>            0.00006 </y-correction>
+        <y-adjusted  >       963723.90906 </y-adjusted>
+
+        <z-given     >      4892576.47700 </z-given>
+        <z-correction>           -0.00198 </z-correction>
+        <z-adjusted  >      4892576.47502 </z-adjusted>
+
+        <cxx> 4.8345099e+01 </cxx> <cxy>  7.6308216e+00 </cxy> 
+                                   <cxz>  3.1503568e+01 </cxz>
+        <cyy> 1.3038896e+01 </cyy> <cyz>  1.0653988e+01 </cyz>
+        <czz> 6.1482529e+01 </czz>
+
+        <b-given     >   50-24-55.6730034 </b-given>
+        <b-correction>         -0.0001735 </b-correction>
+        <b-adjusted  >   50-24-55.6728298 </b-adjusted>
+
+        <l-given     >   13-41-17.9632063 </l-given>
+        <l-correction>         -0.0000627 </l-correction>
+        <l-adjusted  >   13-41-17.9631436 </l-adjusted>
+
+        <h-given     >          273.31877 </h-given>
+        <h-correction>            0.00186 </h-correction>
+        <h-adjusted  >          273.32063 </h-adjusted>
+
+        </point>
+
+<point> <id> 5603 </id>
+
+        <n-free/>   <dn>  -4.615 </dn> <ind>10</ind> 
+        <e-free/>   <de>  -3.740 </de> <ind>11</ind> 
+        <u-free/>   <du> 105.576 </du> <ind>12</ind> 
+
+        <cnn> 2.3164438e+01 </cnn> <cne>  2.4238764e+00 </cne> 
+                                   <cnu> -2.6000209e-01 </cnu>
+        <cee> 1.2814721e+01 </cee> <ceu>  2.6465970e+00 </ceu>
+        <cuu> 1.0066527e+02 </cuu>
+
+        <x-given     >      3956372.71000 </x-given>
+        <x-correction>            0.06970 </x-correction>
+        <x-adjusted  >      3956372.77970 </x-adjusted>
+
+        <y-given     >       963166.00900 </y-given>
+        <y-correction>            0.01312 </y-correction>
+        <y-adjusted  >       963166.02212 </y-adjusted>
+
+        <z-given     >      4893057.59400 </z-given>
+        <z-correction>            0.07843 </z-correction>
+        <z-adjusted  >      4893057.67243 </z-adjusted>
+
+        <cxx> 5.2609478e+01 </cxx> <cxy>  9.5058776e+00 </cxy> 
+                                   <cxz>  3.6178066e+01 </cxz>
+        <cyy> 1.5084582e+01 </cyy> <cyz>  1.2496319e+01 </cyz>
+        <czz> 6.8950370e+01 </czz>
+
+        <b-given     >   50-25-20.6652670 </b-given>
+        <b-correction>         -0.0001494 </b-correction>
+        <b-adjusted  >   50-25-20.6651177 </b-adjusted>
+
+        <l-given     >   13-40-56.3318252 </l-given>
+        <l-correction>         -0.0001895 </l-correction>
+        <l-adjusted  >   13-40-56.3316357 </l-adjusted>
+
+        <h-given     >          259.10899 </h-given>
+        <h-correction>            0.10558 </h-correction>
+        <h-adjusted  >          259.21457 </h-adjusted>
+
+        </point>
+
+<point> <id> 06200310 </id>
+
+        <n-fixed/>  
+        <e-fixed/>  
+        <u-fixed/>  
+
+        <x-given     >      3955772.97600 </x-given>
+        <y-given     >       967590.60400 </y-given>
+        <z-given     >      4892727.02600 </z-given>
+
+        <b-given     >   50-25-02.2186412 </b-given>
+        <l-given     >   13-44-41.2612038 </l-given>
+        <h-given     >          301.43054 </h-given>
+
+        </point>
+
+<point> <id> 06250150 </id>
+
+        <n-fixed/>  
+        <e-fixed/>  
+        <u-fixed/>  
+
+        <x-given     >      3954805.94500 </x-given>
+        <y-given     >       961234.68400 </y-given>
+        <z-given     >      4894723.92300 </z-given>
+
+        <b-given     >   50-26-44.3814462 </b-given>
+        <l-given     >   13-39-40.0119060 </l-given>
+        <h-given     >          283.20311 </h-given>
+
+        </point>
+
+<point> <id> 13210030 </id>
+
+        <n-fixed/>  
+        <e-fixed/>  
+        <u-fixed/>  
+
+        <x-given     >      3958437.77800 </x-given>
+        <y-given     >       961269.54900 </y-given>
+        <z-given     >      4891861.10900 </z-given>
+
+        <b-given     >   50-24-17.1206579 </b-given>
+        <l-given     >   13-38-58.2937879 </l-given>
+        <h-given     >          330.19161 </h-given>
+
+        </point>
+
+</adjustment-results>
+
+
+<adjusted-observations>
+
+<vector> <from>503</from> <to>06200210</to> <ind>1</ind>
+
+        <dx-observed>   -148.56600 </dx-observed>
+        <dx-residual>     -0.05278 </dx-residual>
+        <dx-adjusted>   -148.61878 </dx-adjusted>
+
+        <dy-observed>    513.42600 </dy-observed>
+        <dy-residual>     -0.01590 </dy-residual>
+        <dy-adjusted>    513.41010 </dy-adjusted>
+
+        <dz-observed>     16.52700 </dz-observed>
+        <dz-residual>     -0.06507 </dz-residual>
+        <dz-adjusted>     16.46193 </dz-adjusted>
+
+        <dx-stdev-obs>   0.819 </dx-stdev-obs>
+        <dx-stdev-adj>   7.902 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.510 </dy-stdev-obs>
+        <dy-stdev-adj>   4.417 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.964 </dz-stdev-obs>
+        <dz-stdev-adj>   9.053 </dz-stdev-adj>
+
+        <cxx> 6.2445677e+01 </cxx> <cxy>  1.0883664e+01 </cxy> 
+                                   <cxz>  4.2173068e+01 </cxz>
+        <cyy> 1.9513386e+01 </cyy> <cyz>  1.5479056e+01 </cyz>
+        <czz> 8.1949077e+01 </czz>
+        </vector>
+
+<vector> <from>06202430</from> <to>06200210</to> <ind>4</ind>
+
+        <dx-observed>  -1161.34300 </dx-observed>
+        <dx-residual>     -0.05841 </dx-residual>
+        <dx-adjusted>  -1161.40141 </dx-adjusted>
+
+        <dy-observed>   -888.59700 </dy-observed>
+        <dy-residual>     -0.01286 </dy-residual>
+        <dy-adjusted>   -888.60986 </dy-adjusted>
+
+        <dz-observed>   1086.22800 </dz-observed>
+        <dz-residual>     -0.07076 </dz-residual>
+        <dz-adjusted>   1086.15724 </dz-adjusted>
+
+        <dx-stdev-obs>   0.794 </dx-stdev-obs>
+        <dx-stdev-adj>   7.741 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.490 </dy-stdev-obs>
+        <dy-stdev-adj>   4.369 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.954 </dz-stdev-obs>
+        <dz-stdev-adj>   8.984 </dz-stdev-adj>
+
+        <cxx> 5.9927293e+01 </cxx> <cxy>  1.0921041e+01 </cxy> 
+                                   <cxz>  4.1421340e+01 </cxz>
+        <cyy> 1.9089382e+01 </cyy> <cyz>  1.5874908e+01 </cyz>
+        <czz> 8.0708198e+01 </czz>
+        </vector>
+
+<vector> <from>5603</from> <to>06200210</to> <ind>7</ind>
+
+        <dx-observed>   -675.39900 </dx-observed>
+        <dx-residual>      0.00335 </dx-residual>
+        <dx-adjusted>   -675.39565 </dx-adjusted>
+
+        <dy-observed>   -330.72400 </dy-observed>
+        <dy-residual>      0.00108 </dy-residual>
+        <dy-adjusted>   -330.72292 </dy-adjusted>
+
+        <dz-observed>    604.95600 </dz-observed>
+        <dz-residual>      0.00382 </dz-residual>
+        <dz-adjusted>    604.95982 </dz-adjusted>
+
+        <dx-stdev-obs>   0.265 </dx-stdev-obs>
+        <dx-stdev-adj>   5.930 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.173 </dy-stdev-obs>
+        <dy-stdev-adj>   3.652 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.332 </dz-stdev-obs>
+        <dz-stdev-adj>   7.249 </dz-stdev-adj>
+
+        <cxx> 3.5162248e+01 </cxx> <cxy>  5.6801232e+00 </cxy> 
+                                   <cxz>  2.5000971e+01 </cxz>
+        <cyy> 1.3339174e+01 </cyy> <cyz>  9.7772297e+00 </cyz>
+        <czz> 5.2546962e+01 </czz>
+        </vector>
+
+<vector> <from>06200310</from> <to>06200210</to> <ind>10</ind>
+
+        <dx-observed>    -75.59200 </dx-observed>
+        <dx-residual>      0.00005 </dx-residual>
+        <dx-adjusted>    -75.59195 </dx-adjusted>
+
+        <dy-observed>  -4755.30700 </dy-observed>
+        <dy-residual>      0.00220 </dy-residual>
+        <dy-adjusted>  -4755.30480 </dy-adjusted>
+
+        <dz-observed>    935.60700 </dz-observed>
+        <dz-residual>     -0.00074 </dz-residual>
+        <dz-adjusted>    935.60626 </dz-adjusted>
+
+        <dx-stdev-obs>   0.831 </dx-stdev-obs>
+        <dx-stdev-adj>   7.155 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.346 </dy-stdev-obs>
+        <dy-stdev-adj>   4.024 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.922 </dz-stdev-obs>
+        <dz-stdev-adj>   8.522 </dz-stdev-adj>
+
+        <cxx> 5.1186953e+01 </cxx> <cxy>  9.5664012e+00 </cxy> 
+                                   <cxz>  3.5256828e+01 </cxz>
+        <cyy> 1.6196180e+01 </cyy> <cyz>  1.3830442e+01 </cyz>
+        <czz> 7.2631439e+01 </czz>
+        </vector>
+
+<vector> <from>06250150</from> <to>06200210</to> <ind>13</ind>
+
+        <dx-observed>    891.43700 </dx-observed>
+        <dx-residual>      0.00205 </dx-residual>
+        <dx-adjusted>    891.43905 </dx-adjusted>
+
+        <dy-observed>   1600.61400 </dy-observed>
+        <dy-residual>      0.00120 </dy-residual>
+        <dy-adjusted>   1600.61520 </dy-adjusted>
+
+        <dz-observed>  -1061.30200 </dz-observed>
+        <dz-residual>      0.01126 </dz-residual>
+        <dz-adjusted>  -1061.29074 </dz-adjusted>
+
+        <dx-stdev-obs>   0.787 </dx-stdev-obs>
+        <dx-stdev-adj>   7.155 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.583 </dy-stdev-obs>
+        <dy-stdev-adj>   4.024 </dy-stdev-adj>
+
+        <dz-stdev-obs>   2.007 </dz-stdev-obs>
+        <dz-stdev-adj>   8.522 </dz-stdev-adj>
+
+        <cxx> 5.1186953e+01 </cxx> <cxy>  9.5664012e+00 </cxy> 
+                                   <cxz>  3.5256828e+01 </cxz>
+        <cyy> 1.6196180e+01 </cyy> <cyz>  1.3830442e+01 </cyz>
+        <czz> 7.2631439e+01 </czz>
+        </vector>
+
+<vector> <from>13210030</from> <to>06200210</to> <ind>16</ind>
+
+        <dx-observed>  -2740.41100 </dx-observed>
+        <dx-residual>      0.01705 </dx-residual>
+        <dx-adjusted>  -2740.39395 </dx-adjusted>
+
+        <dy-observed>   1565.74500 </dy-observed>
+        <dy-residual>      0.00520 </dy-residual>
+        <dy-adjusted>   1565.75020 </dy-adjusted>
+
+        <dz-observed>   1801.51000 </dz-observed>
+        <dz-residual>      0.01326 </dz-residual>
+        <dz-adjusted>   1801.52326 </dz-adjusted>
+
+        <dx-stdev-obs>   0.735 </dx-stdev-obs>
+        <dx-stdev-adj>   7.155 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.557 </dy-stdev-obs>
+        <dy-stdev-adj>   4.024 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.819 </dz-stdev-obs>
+        <dz-stdev-adj>   8.522 </dz-stdev-adj>
+
+        <cxx> 5.1186953e+01 </cxx> <cxy>  9.5664012e+00 </cxy> 
+                                   <cxz>  3.5256828e+01 </cxz>
+        <cyy> 1.6196180e+01 </cyy> <cyz>  1.3830442e+01 </cyz>
+        <czz> 7.2631439e+01 </czz>
+        </vector>
+
+<vector> <from>13210030</from> <to>06202430</to> <ind>19</ind>
+
+        <dx-observed>  -1578.99800 </dx-observed>
+        <dx-residual>      0.00546 </dx-residual>
+        <dx-adjusted>  -1578.99254 </dx-adjusted>
+
+        <dy-observed>   2454.36000 </dy-observed>
+        <dy-residual>      0.00006 </dy-residual>
+        <dy-adjusted>   2454.36006 </dy-adjusted>
+
+        <dz-observed>    715.36800 </dz-observed>
+        <dz-residual>     -0.00198 </dz-residual>
+        <dz-adjusted>    715.36602 </dz-adjusted>
+
+        <dx-stdev-obs>   1.049 </dx-stdev-obs>
+        <dx-stdev-adj>   6.953 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.316 </dy-stdev-obs>
+        <dy-stdev-adj>   3.611 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.755 </dz-stdev-obs>
+        <dz-stdev-adj>   7.841 </dz-stdev-adj>
+
+        <cxx> 4.8345099e+01 </cxx> <cxy>  7.6308216e+00 </cxy> 
+                                   <cxz>  3.1503568e+01 </cxz>
+        <cyy> 1.3038896e+01 </cyy> <cyz>  1.0653988e+01 </cyz>
+        <czz> 6.1482529e+01 </czz>
+        </vector>
+
+<vector> <from>503</from> <to>06202430</to> <ind>22</ind>
+
+        <dx-observed>   1012.77900 </dx-observed>
+        <dx-residual>      0.00363 </dx-residual>
+        <dx-adjusted>   1012.78263 </dx-adjusted>
+
+        <dy-observed>   1402.02000 </dy-observed>
+        <dy-residual>     -0.00005 </dy-residual>
+        <dy-adjusted>   1402.01995 </dy-adjusted>
+
+        <dz-observed>  -1069.70000 </dz-observed>
+        <dz-residual>      0.00469 </dz-residual>
+        <dz-adjusted>  -1069.69531 </dz-adjusted>
+
+        <dx-stdev-obs>   0.245 </dx-stdev-obs>
+        <dx-stdev-adj>   5.570 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.141 </dy-stdev-obs>
+        <dy-stdev-adj>   3.111 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.283 </dz-stdev-obs>
+        <dz-stdev-adj>   6.351 </dz-stdev-adj>
+
+        <cxx> 3.1019895e+01 </cxx> <cxy>  5.1117626e+00 </cxy> 
+                                   <cxz>  2.0626474e+01 </cxz>
+        <cyy> 9.6807550e+00 </cyy> <cyz>  5.7985109e+00 </cyz>
+        <czz> 4.0339310e+01 </czz>
+        </vector>
+
+<vector> <from>06200310</from> <to>06202430</to> <ind>25</ind>
+
+        <dx-observed>   1085.81400 </dx-observed>
+        <dx-residual>     -0.00454 </dx-residual>
+        <dx-adjusted>   1085.80946 </dx-adjusted>
+
+        <dy-observed>  -3866.69000 </dy-observed>
+        <dy-residual>     -0.00494 </dy-residual>
+        <dy-adjusted>  -3866.69494 </dy-adjusted>
+
+        <dz-observed>   -150.54700 </dz-observed>
+        <dz-residual>     -0.00398 </dz-residual>
+        <dz-adjusted>   -150.55098 </dz-adjusted>
+
+        <dx-stdev-obs>   0.648 </dx-stdev-obs>
+        <dx-stdev-adj>   6.953 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.387 </dy-stdev-obs>
+        <dy-stdev-adj>   3.611 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.794 </dz-stdev-obs>
+        <dz-stdev-adj>   7.841 </dz-stdev-adj>
+
+        <cxx> 4.8345099e+01 </cxx> <cxy>  7.6308216e+00 </cxy> 
+                                   <cxz>  3.1503568e+01 </cxz>
+        <cyy> 1.3038896e+01 </cyy> <cyz>  1.0653988e+01 </cyz>
+        <czz> 6.1482529e+01 </czz>
+        </vector>
+
+<vector> <from>06250150</from> <to>06202430</to> <ind>28</ind>
+
+        <dx-observed>   2052.84600 </dx-observed>
+        <dx-residual>     -0.00554 </dx-residual>
+        <dx-adjusted>   2052.84046 </dx-adjusted>
+
+        <dy-observed>   2489.22900 </dy-observed>
+        <dy-residual>     -0.00394 </dy-residual>
+        <dy-adjusted>   2489.22506 </dy-adjusted>
+
+        <dz-observed>  -2147.45400 </dz-observed>
+        <dz-residual>      0.00602 </dz-residual>
+        <dz-adjusted>  -2147.44798 </dz-adjusted>
+
+        <dx-stdev-obs>   0.678 </dx-stdev-obs>
+        <dx-stdev-adj>   6.953 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.400 </dy-stdev-obs>
+        <dy-stdev-adj>   3.611 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.854 </dz-stdev-obs>
+        <dz-stdev-adj>   7.841 </dz-stdev-adj>
+
+        <cxx> 4.8345099e+01 </cxx> <cxy>  7.6308216e+00 </cxy> 
+                                   <cxz>  3.1503568e+01 </cxz>
+        <cyy> 1.3038896e+01 </cyy> <cyz>  1.0653988e+01 </cyz>
+        <czz> 6.1482529e+01 </czz>
+        </vector>
+
+<vector> <from>5603</from> <to>06202430</to> <ind>31</ind>
+
+        <dx-observed>    486.07000 </dx-observed>
+        <dx-residual>     -0.06424 </dx-residual>
+        <dx-adjusted>    486.00576 </dx-adjusted>
+
+        <dy-observed>    557.90000 </dy-observed>
+        <dy-residual>     -0.01306 </dy-residual>
+        <dy-adjusted>    557.88694 </dy-adjusted>
+
+        <dz-observed>   -481.11700 </dz-observed>
+        <dz-residual>     -0.08042 </dz-residual>
+        <dz-adjusted>   -481.19742 </dz-adjusted>
+
+        <dx-stdev-obs>   0.883 </dx-stdev-obs>
+        <dx-stdev-adj>   7.988 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.529 </dy-stdev-obs>
+        <dy-stdev-adj>   4.272 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.010 </dz-stdev-obs>
+        <dz-stdev-adj>   9.013 </dz-stdev-adj>
+
+        <cxx> 6.3815364e+01 </cxx> <cxy>  1.1476044e+01 </cxy> 
+                                   <cxz>  4.4731013e+01 </cxz>
+        <cyy> 1.8250511e+01 </cyy> <cyz>  1.5560690e+01 </cyz>
+        <czz> 8.1238996e+01 </czz>
+        </vector>
+
+<vector> <from>06200210</from> <to>06202430</to> <ind>34</ind>
+
+        <dx-observed>   1161.47400 </dx-observed>
+        <dx-residual>     -0.07259 </dx-residual>
+        <dx-adjusted>   1161.40141 </dx-adjusted>
+
+        <dy-observed>    888.62900 </dy-observed>
+        <dy-residual>     -0.01914 </dy-residual>
+        <dy-adjusted>    888.60986 </dy-adjusted>
+
+        <dz-observed>  -1086.06800 </dz-observed>
+        <dz-residual>     -0.08924 </dz-residual>
+        <dz-adjusted>  -1086.15724 </dz-adjusted>
+
+        <dx-stdev-obs>   0.883 </dx-stdev-obs>
+        <dx-stdev-adj>   7.741 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.529 </dy-stdev-obs>
+        <dy-stdev-adj>   4.369 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.020 </dz-stdev-obs>
+        <dz-stdev-adj>   8.984 </dz-stdev-adj>
+
+        <cxx> 5.9927293e+01 </cxx> <cxy>  1.0921041e+01 </cxy> 
+                                   <cxz>  4.1421340e+01 </cxz>
+        <cyy> 1.9089382e+01 </cyy> <cyz>  1.5874908e+01 </cyz>
+        <czz> 8.0708198e+01 </czz>
+        </vector>
+
+<vector> <from>13210030</from> <to>503</to> <ind>37</ind>
+
+        <dx-observed>  -2591.77300 </dx-observed>
+        <dx-residual>     -0.00217 </dx-residual>
+        <dx-adjusted>  -2591.77517 </dx-adjusted>
+
+        <dy-observed>   1052.33800 </dy-observed>
+        <dy-residual>      0.00210 </dy-residual>
+        <dy-adjusted>   1052.34010 </dy-adjusted>
+
+        <dz-observed>   1785.06400 </dz-observed>
+        <dz-residual>     -0.00268 </dz-residual>
+        <dz-adjusted>   1785.06132 </dz-adjusted>
+
+        <dx-stdev-obs>   1.131 </dx-stdev-obs>
+        <dx-stdev-adj>   7.080 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.332 </dy-stdev-obs>
+        <dy-stdev-adj>   3.665 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.812 </dz-stdev-obs>
+        <dz-stdev-adj>   7.920 </dz-stdev-adj>
+
+        <cxx> 5.0130508e+01 </cxx> <cxy>  7.7448541e+00 </cxy> 
+                                   <cxz>  3.2368284e+01 </cxz>
+        <cyy> 1.3428617e+01 </cyy> <cyz>  1.0620673e+01 </cyz>
+        <czz> 6.2722380e+01 </czz>
+        </vector>
+
+<vector> <from>06200310</from> <to>503</to> <ind>40</ind>
+
+        <dx-observed>     73.03000 </dx-observed>
+        <dx-residual>     -0.00317 </dx-residual>
+        <dx-adjusted>     73.02683 </dx-adjusted>
+
+        <dy-observed>  -5268.71200 </dy-observed>
+        <dy-residual>     -0.00290 </dy-residual>
+        <dy-adjusted>  -5268.71490 </dy-adjusted>
+
+        <dz-observed>    919.15700 </dz-observed>
+        <dz-residual>     -0.01268 </dz-residual>
+        <dz-adjusted>    919.14432 </dz-adjusted>
+
+        <dx-stdev-obs>   0.663 </dx-stdev-obs>
+        <dx-stdev-adj>   7.080 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.400 </dy-stdev-obs>
+        <dy-stdev-adj>   3.665 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.812 </dz-stdev-obs>
+        <dz-stdev-adj>   7.920 </dz-stdev-adj>
+
+        <cxx> 5.0130508e+01 </cxx> <cxy>  7.7448541e+00 </cxy> 
+                                   <cxz>  3.2368284e+01 </cxz>
+        <cyy> 1.3428617e+01 </cyy> <cyz>  1.0620673e+01 </cyz>
+        <czz> 6.2722380e+01 </czz>
+        </vector>
+
+<vector> <from>06250150</from> <to>503</to> <ind>43</ind>
+
+        <dx-observed>   1040.06700 </dx-observed>
+        <dx-residual>     -0.00917 </dx-residual>
+        <dx-adjusted>   1040.05783 </dx-adjusted>
+
+        <dy-observed>   1087.21200 </dy-observed>
+        <dy-residual>     -0.00690 </dy-residual>
+        <dy-adjusted>   1087.20510 </dy-adjusted>
+
+        <dz-observed>  -1077.74800 </dz-observed>
+        <dz-residual>     -0.00468 </dz-residual>
+        <dz-adjusted>  -1077.75268 </dz-adjusted>
+
+        <dx-stdev-obs>   0.693 </dx-stdev-obs>
+        <dx-stdev-adj>   7.080 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.412 </dy-stdev-obs>
+        <dy-stdev-adj>   3.665 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.866 </dz-stdev-obs>
+        <dz-stdev-adj>   7.920 </dz-stdev-adj>
+
+        <cxx> 5.0130508e+01 </cxx> <cxy>  7.7448541e+00 </cxy> 
+                                   <cxz>  3.2368284e+01 </cxz>
+        <cyy> 1.3428617e+01 </cyy> <cyz>  1.0620673e+01 </cyz>
+        <czz> 6.2722380e+01 </czz>
+        </vector>
+
+<vector> <from>5603</from> <to>503</to> <ind>46</ind>
+
+        <dx-observed>   -526.76100 </dx-observed>
+        <dx-residual>     -0.01587 </dx-residual>
+        <dx-adjusted>   -526.77687 </dx-adjusted>
+
+        <dy-observed>   -844.12900 </dy-observed>
+        <dy-residual>     -0.00401 </dy-residual>
+        <dy-adjusted>   -844.13301 </dy-adjusted>
+
+        <dz-observed>    588.50500 </dz-observed>
+        <dz-residual>     -0.00711 </dz-residual>
+        <dz-adjusted>    588.49789 </dz-adjusted>
+
+        <dx-stdev-obs>   1.025 </dx-stdev-obs>
+        <dx-stdev-adj>   8.143 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.548 </dy-stdev-obs>
+        <dy-stdev-adj>   4.312 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.000 </dz-stdev-obs>
+        <dz-stdev-adj>   9.067 </dz-stdev-adj>
+
+        <cxx> 6.6303701e+01 </cxx> <cxy>  1.1429055e+01 </cxy> 
+                                   <cxz>  4.5550683e+01 </cxz>
+        <cyy> 1.8590953e+01 </cyy> <cyz>  1.5062588e+01 </cyz>
+        <czz> 8.2203684e+01 </czz>
+        </vector>
+
+<vector> <from>06200210</from> <to>503</to> <ind>49</ind>
+
+        <dx-observed>    148.62800 </dx-observed>
+        <dx-residual>     -0.00922 </dx-residual>
+        <dx-adjusted>    148.61878 </dx-adjusted>
+
+        <dy-observed>   -513.40400 </dy-observed>
+        <dy-residual>     -0.00610 </dy-residual>
+        <dy-adjusted>   -513.41010 </dy-adjusted>
+
+        <dz-observed>    -16.44400 </dz-observed>
+        <dz-residual>     -0.01793 </dz-residual>
+        <dz-adjusted>    -16.46193 </dz-adjusted>
+
+        <dx-stdev-obs>   1.049 </dx-stdev-obs>
+        <dx-stdev-adj>   7.902 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.566 </dy-stdev-obs>
+        <dy-stdev-adj>   4.417 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.077 </dz-stdev-obs>
+        <dz-stdev-adj>   9.053 </dz-stdev-adj>
+
+        <cxx> 6.2445677e+01 </cxx> <cxy>  1.0883664e+01 </cxy> 
+                                   <cxz>  4.2173068e+01 </cxz>
+        <cyy> 1.9513386e+01 </cyy> <cyz>  1.5479056e+01 </cyz>
+        <czz> 8.1949077e+01 </czz>
+        </vector>
+
+<vector> <from>13210030</from> <to>5603</to> <ind>52</ind>
+
+        <dx-observed>  -2064.95500 </dx-observed>
+        <dx-residual>     -0.04330 </dx-residual>
+        <dx-adjusted>  -2064.99830 </dx-adjusted>
+
+        <dy-observed>   1896.48200 </dy-observed>
+        <dy-residual>     -0.00888 </dy-residual>
+        <dy-adjusted>   1896.47312 </dy-adjusted>
+
+        <dz-observed>   1196.61800 </dz-observed>
+        <dz-residual>     -0.05457 </dz-residual>
+        <dz-adjusted>   1196.56343 </dz-adjusted>
+
+        <dx-stdev-obs>   2.005 </dx-stdev-obs>
+        <dx-stdev-adj>   7.253 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.728 </dy-stdev-obs>
+        <dy-stdev-adj>   3.884 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.910 </dz-stdev-obs>
+        <dz-stdev-adj>   8.304 </dz-stdev-adj>
+
+        <cxx> 5.2609478e+01 </cxx> <cxy>  9.5058776e+00 </cxy> 
+                                   <cxz>  3.6178066e+01 </cxz>
+        <cyy> 1.5084582e+01 </cyy> <cyz>  1.2496319e+01 </cyz>
+        <czz> 6.8950370e+01 </czz>
+        </vector>
+
+<vector> <from>503</from> <to>5603</to> <ind>55</ind>
+
+        <dx-observed>    526.82300 </dx-observed>
+        <dx-residual>     -0.04613 </dx-residual>
+        <dx-adjusted>    526.77687 </dx-adjusted>
+
+        <dy-observed>    844.14200 </dy-observed>
+        <dy-residual>     -0.00899 </dy-residual>
+        <dy-adjusted>    844.13301 </dy-adjusted>
+
+        <dz-observed>   -588.44000 </dz-observed>
+        <dz-residual>     -0.05789 </dz-residual>
+        <dz-adjusted>   -588.49789 </dz-adjusted>
+
+        <dx-stdev-obs>   1.245 </dx-stdev-obs>
+        <dx-stdev-adj>   8.143 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.490 </dy-stdev-obs>
+        <dy-stdev-adj>   4.312 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.311 </dz-stdev-obs>
+        <dz-stdev-adj>   9.067 </dz-stdev-adj>
+
+        <cxx> 6.6303701e+01 </cxx> <cxy>  1.1429055e+01 </cxy> 
+                                   <cxz>  4.5550683e+01 </cxz>
+        <cyy> 1.8590953e+01 </cyy> <cyz>  1.5062588e+01 </cyz>
+        <czz> 8.2203684e+01 </czz>
+        </vector>
+
+<vector> <from>06202430</from> <to>5603</to> <ind>58</ind>
+
+        <dx-observed>   -485.95600 </dx-observed>
+        <dx-residual>     -0.04976 </dx-residual>
+        <dx-adjusted>   -486.00576 </dx-adjusted>
+
+        <dy-observed>   -557.87700 </dy-observed>
+        <dy-residual>     -0.00994 </dy-residual>
+        <dy-adjusted>   -557.88694 </dy-adjusted>
+
+        <dz-observed>    481.25100 </dz-observed>
+        <dz-residual>     -0.05358 </dz-residual>
+        <dz-adjusted>    481.19742 </dz-adjusted>
+
+        <dx-stdev-obs>   1.245 </dx-stdev-obs>
+        <dx-stdev-adj>   7.988 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.490 </dy-stdev-obs>
+        <dy-stdev-adj>   4.272 </dy-stdev-adj>
+
+        <dz-stdev-obs>   1.311 </dz-stdev-obs>
+        <dz-stdev-adj>   9.013 </dz-stdev-adj>
+
+        <cxx> 6.3815364e+01 </cxx> <cxy>  1.1476044e+01 </cxy> 
+                                   <cxz>  4.4731013e+01 </cxz>
+        <cyy> 1.8250511e+01 </cyy> <cyz>  1.5560690e+01 </cyz>
+        <czz> 8.1238996e+01 </czz>
+        </vector>
+
+<vector> <from>06200310</from> <to>5603</to> <ind>61</ind>
+
+        <dx-observed>    599.80700 </dx-observed>
+        <dx-residual>     -0.00330 </dx-residual>
+        <dx-adjusted>    599.80370 </dx-adjusted>
+
+        <dy-observed>  -4424.58200 </dy-observed>
+        <dy-residual>      0.00012 </dy-residual>
+        <dy-adjusted>  -4424.58188 </dy-adjusted>
+
+        <dz-observed>    330.65000 </dz-observed>
+        <dz-residual>     -0.00357 </dz-residual>
+        <dz-adjusted>    330.64643 </dz-adjusted>
+
+        <dx-stdev-obs>   0.831 </dx-stdev-obs>
+        <dx-stdev-adj>   7.253 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.346 </dy-stdev-obs>
+        <dy-stdev-adj>   3.884 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.917 </dz-stdev-obs>
+        <dz-stdev-adj>   8.304 </dz-stdev-adj>
+
+        <cxx> 5.2609478e+01 </cxx> <cxy>  9.5058776e+00 </cxy> 
+                                   <cxz>  3.6178066e+01 </cxz>
+        <cyy> 1.5084582e+01 </cyy> <cyz>  1.2496319e+01 </cyz>
+        <czz> 6.8950370e+01 </czz>
+        </vector>
+
+<vector> <from>06250150</from> <to>5603</to> <ind>64</ind>
+
+        <dx-observed>   1566.83100 </dx-observed>
+        <dx-residual>      0.00370 </dx-residual>
+        <dx-adjusted>   1566.83470 </dx-adjusted>
+
+        <dy-observed>   1931.33500 </dy-observed>
+        <dy-residual>      0.00312 </dy-residual>
+        <dy-adjusted>   1931.33812 </dy-adjusted>
+
+        <dz-observed>  -1666.27000 </dz-observed>
+        <dz-residual>      0.01943 </dz-residual>
+        <dz-adjusted>  -1666.25057 </dz-adjusted>
+
+        <dx-stdev-obs>   0.742 </dx-stdev-obs>
+        <dx-stdev-adj>   7.253 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.469 </dy-stdev-obs>
+        <dy-stdev-adj>   3.884 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.894 </dz-stdev-obs>
+        <dz-stdev-adj>   8.304 </dz-stdev-adj>
+
+        <cxx> 5.2609478e+01 </cxx> <cxy>  9.5058776e+00 </cxy> 
+                                   <cxz>  3.6178066e+01 </cxz>
+        <cyy> 1.5084582e+01 </cyy> <cyz>  1.2496319e+01 </cyz>
+        <czz> 6.8950370e+01 </czz>
+        </vector>
+
+<vector> <from>13210030</from> <to>5603</to> <ind>67</ind>
+
+        <dx-observed>  -2065.00800 </dx-observed>
+        <dx-residual>      0.00970 </dx-residual>
+        <dx-adjusted>  -2064.99830 </dx-adjusted>
+
+        <dy-observed>   1896.46600 </dy-observed>
+        <dy-residual>      0.00712 </dy-residual>
+        <dy-adjusted>   1896.47312 </dy-adjusted>
+
+        <dz-observed>   1196.55900 </dz-observed>
+        <dz-residual>      0.00443 </dz-residual>
+        <dz-adjusted>   1196.56343 </dz-adjusted>
+
+        <dx-stdev-obs>   0.728 </dx-stdev-obs>
+        <dx-stdev-adj>   7.253 </dx-stdev-adj>
+
+        <dy-stdev-obs>   0.520 </dy-stdev-obs>
+        <dy-stdev-adj>   3.884 </dy-stdev-adj>
+
+        <dz-stdev-obs>   0.800 </dz-stdev-obs>
+        <dz-stdev-adj>   8.304 </dz-stdev-adj>
+
+        <cxx> 5.2609478e+01 </cxx> <cxy>  9.5058776e+00 </cxy> 
+                                   <cxz>  3.6178066e+01 </cxz>
+        <cyy> 1.5084582e+01 </cyy> <cyz>  1.2496319e+01 </cyz>
+        <czz> 6.8950370e+01 </czz>
+        </vector>
+
+</adjusted-observations>
+</g3-adjustment-results>
+
+</gnu-gama-data>
