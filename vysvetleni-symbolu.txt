@@ -1,0 +1,5 @@
+@#   X Y Z   CTRL   12               Pevný bod
+@#   X Y Y   REF    12               Volný  bod   reference
+@+   X Y Z                           Volný  bod    rover
+@-   dX dY dZ                        Přírustky
+@=   kovariance   ( m0 ),  cxx, cxy, czz, cyy, cyz, czz.  Rozměr jsou metry.
